@@ -1,0 +1,70 @@
+{
+    "source": "FAO-56 Irrigation and Drainage Paper No. 56 — Allen et al. (1998)",
+    "region": "Costa peruana (Ica, La Libertad, Lambayeque)",
+    "crops": [
+        {
+            "id": 0,
+            "name": "Espárrago",
+            "name_en": "Asparagus",
+            "hmin_pct": 40,
+            "hmax_pct": 80,
+            "kc_initial": 0.50,
+            "kc_mid": 0.95,
+            "kc_end": 0.30,
+            "irrigation_efficiency_drip": 0.92,
+            "irrigation_efficiency_sprinkler": 0.80,
+            "irrigation_efficiency_gravity": 0.55,
+            "alpha_productivity": 1.20,
+            "beta_water_cost": 0.35,
+            "notes": "Kc variable por etapa fenológica — NO constante"
+        },
+        {
+            "id": 1,
+            "name": "Palto",
+            "name_en": "Avocado (Hass)",
+            "hmin_pct": 50,
+            "hmax_pct": 85,
+            "kc_initial": 0.60,
+            "kc_mid": 1.00,
+            "kc_end": 0.85,
+            "irrigation_efficiency_drip": 0.90,
+            "irrigation_efficiency_sprinkler": 0.78,
+            "irrigation_efficiency_gravity": 0.52,
+            "alpha_productivity": 1.15,
+            "beta_water_cost": 0.40,
+            "notes": "Sensible a déficit hídrico en floración"
+        },
+        {
+            "id": 2,
+            "name": "Maíz",
+            "name_en": "Maize (grain)",
+            "hmin_pct": 45,
+            "hmax_pct": 82,
+            "kc_initial": 0.30,
+            "kc_mid": 1.20,
+            "kc_end": 0.60,
+            "irrigation_efficiency_drip": 0.80,
+            "irrigation_efficiency_sprinkler": 0.75,
+            "irrigation_efficiency_gravity": 0.55,
+            "alpha_productivity": 1.00,
+            "beta_water_cost": 0.30,
+            "notes": "Alto Kc_mid — periodo crítico en formación de mazorca"
+        },
+        {
+            "id": 3,
+            "name": "Papa",
+            "name_en": "Potato",
+            "hmin_pct": 55,
+            "hmax_pct": 88,
+            "kc_initial": 0.50,
+            "kc_mid": 1.15,
+            "kc_end": 0.75,
+            "irrigation_efficiency_drip": 0.85,
+            "irrigation_efficiency_sprinkler": 0.78,
+            "irrigation_efficiency_gravity": 0.55,
+            "alpha_productivity": 1.10,
+            "beta_water_cost": 0.38,
+            "notes": "Requiere humedad uniforme para evitar costra"
+        }
+    ]
+}
